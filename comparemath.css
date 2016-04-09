@@ -1,0 +1,133 @@
+body{
+color:white;
+margin:0;
+}
+p,span{
+margin:0;
+}
+button{
+margin-top:3%;
+}
+#a,#b,#c{
+font-size:800%;
+font-weight:bold;
+}
+#a,#comp,#op{
+letter-spacing:20px;
+}
+.main{
+text-shadow: 2px 2px 10px black;
+}
+#comp,#op{
+font-weight:bold;
+font-size:600%;
+}
+.right{
+margin-right:5%;
+width:45%;
+height:25%;
+}
+.wrong{
+margin-left:5%;
+width:45%;
+height:25%;
+}
+#gameover{
+font-size:400%;
+font-weight:bold;
+text-shadow: 2px 2px 10px black;
+text-align:center;
+margin-top:5%;
+}
+#scre{
+font-size:350%;
+font-weight:bold;
+text-shadow: 2px 2px 10px black;
+text-align:center;
+}
+#decision{
+font-size:250%;
+text-shadow: 2px 2px 5px black;
+text-align:center;
+}
+#bestscore{
+font-size:250%;
+text-shadow: 2px 2px 5px black;
+text-align:center;
+}
+#sessionbest{
+font-size:250%;
+text-shadow: 2px 2px 5px black;
+text-align:center;
+}
+#repeate{
+text-align: center;
+}
+.pulling{
+float:right;
+}
+.glyphicon {
+font-size:10vw;
+}
+@media screen and (max-width:980px){
+#a,#b,#c{
+font-size:650%;
+font-weight:bold;
+}
+#a,#comp,#op{
+letter-spacing:15px;
+}
+#comp,#op{
+font-weight:bold;
+font-size:500%;
+}
+.glyphicon {
+font-size:13vw;
+}
+h3{
+font-size:20px;
+}
+}
+@media screen and (max-width:630px){
+#a,#b,#c{
+font-size:500%;
+font-weight:bold;
+}
+#a,#comp,#op{
+letter-spacing:15px;
+}
+#comp,#op{
+font-weight:bold;
+font-size:400%;
+}
+.glyphicon {
+font-size:13vw;
+}
+h3{
+font-size:20px;
+}
+}
+@media screen and (max-width:480px){
+.glyphicon {
+font-size:20vw;
+}
+}
+@media screen and (max-width:320px){
+
+.glyphicon {
+font-size:25vw;
+}
+h3{
+font-size:17px;
+}
+.right{
+margin-right:3%;
+width:45%;
+height:25%;
+}
+.wrong{
+margin-left:3%;
+width:45%;
+height:25%;
+}
+}
